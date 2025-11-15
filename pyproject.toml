@@ -1,0 +1,17 @@
+[project]
+name = "genai-session10"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.0.7",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.0.2",
+    "langfuse>=3.9.3",
+    "langgraph>=1.0.3",
+    "langgraph-checkpoint-sqlite>=3.0.0",
+    "pandas>=2.3.3",
+    "python-dotenv>=1.2.1",
+    "statsmodels>=0.14.5",
+]
